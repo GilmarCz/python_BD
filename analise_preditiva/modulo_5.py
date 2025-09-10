@@ -30,7 +30,7 @@ print(df)
 X = df[['total_vendido','preco_medio']]  # entradas (features)
 y = df['faturamento']                    # saída (target)
 
-# Dividir os dados em treino (70%) e teste (30%)
+# Dividir os dados em treino (80%) e teste (20%)
 X_treino, X_teste, y_treino, y_teste = train_test_split(
     X, y, test_size=0.2, random_state=42
 )
